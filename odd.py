@@ -1,5 +1,9 @@
-val=3
-if(val%2==0):
-  print("Even")
+val=int(input())
+if(val<0):
+ print("invalid")
 else:
- print("Odd")
+    if(val%2==0):
+        print("Even")
+    else:
+        print("Odd")
+
