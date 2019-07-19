@@ -1,4 +1,4 @@
-s,b=map(int,input().split())
-for j in range(s+1,b+1):
-  if j%2==0:
-    print(j,end=" ")
+start,end =map(int,(input().split()))
+for n in range (start+1,end):
+    if n%2 ==0:
+        print(n,end ="")
