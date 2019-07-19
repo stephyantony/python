@@ -1,7 +1,7 @@
-num=int(input())
-if num>1:
-    for i in range(2,num):
-        if num%i==0:
+N=int(input())
+if N>1:
+    for i in range(2,N):
+        if N%i==0:
             print("no")
             break
     else:
