@@ -1,8 +1,6 @@
-char=input();
-if(char=='0'):
- exit;
+s1=input()
+
+if((s1>='a' and s1<='z') or (s1>='A' and s1<='Z')):
+  print("Alphabet")
 else:
- if(char>='a' and char<='z') or (chae<='A' and char<='Z')):
- print('alphabet');
-else:
- print('no');
+  print("No")
